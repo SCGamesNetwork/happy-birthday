@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  color: #fff;
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+h2 {
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  color: #fff;
+  font-size: 4em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+p {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 17%;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 100;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 3s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
